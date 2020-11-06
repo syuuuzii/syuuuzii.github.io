@@ -27,7 +27,8 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
+  {%- endif -%}
+  {%- if site.flex.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "flex" }}</h2>
     <ul class="post-list">
       {%- for flex in site.flex -%}
@@ -35,16 +36,15 @@ layout: default
         <h3>
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ flex.title | escape }}
+            {{ post.title | escape }}
           </a>
-          <span class="post-meta">{{ flex.date | date: date_format }}</span>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ flex.excerpt }}
+          {{ post.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
   {%- endif -%}
-
 </div>
