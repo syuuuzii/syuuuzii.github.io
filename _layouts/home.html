@@ -27,7 +27,6 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-  {%- endif -%}
   <h2 class="post-list-heading">{{ page.list_title | default: "flex" }}</h2>
   <ul class="post-list">
     {%- for post in site.flex -%}
@@ -45,4 +44,5 @@ layout: default
     </li>
     {%- endfor -%}
   </ul>
+  {%- endif -%}
 </div>
