@@ -2,6 +2,6 @@
 layout: post
 title:  "flex"
 date:   2020-11-11 09:48:00 +0900
-permalink : post/flex
+category : flex post
 ---
-today Test Post20201106
+today Test Post20201111
