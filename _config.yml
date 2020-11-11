@@ -30,7 +30,7 @@ github_username: syuuuzii
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
-
+category_list: [flex, animation]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
