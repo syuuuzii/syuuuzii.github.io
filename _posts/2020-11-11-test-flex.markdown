@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "flex"
+date:   2020-11-06 09:48:00 +0900
+permalink : post/flex
+---
+today Test Post20201106
