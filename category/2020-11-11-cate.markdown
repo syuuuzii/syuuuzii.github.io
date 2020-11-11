@@ -1,0 +1,6 @@
+---
+layout: category
+title:  "category title"
+date:   2020-11-11 15:55:00 +0900
+---
+Test category
