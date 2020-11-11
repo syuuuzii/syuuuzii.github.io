@@ -1,6 +1,0 @@
----
-layout: post
-title:  "2020-11-06 Test Post"
-date:   2020-11-06 09:48:00 +0900
----
-today Test Post20201106
